@@ -1,6 +1,6 @@
 <?php
 
-namespace Applications\EasyMvc\Config;
+namespace WebDevJL\WebIde\Config;
 
 if (!FrameworkConstants_ExecutionAccessRestriction)
   exit('No direct script access allowed');
@@ -16,7 +16,7 @@ if (!FrameworkConstants_ExecutionAccessRestriction)
  * @package AppSettings
  */
 class AppSettings {
-  
+
   public static function Init() {
     $configSettings = new AppSettings();
     return $configSettings;
@@ -51,8 +51,9 @@ class AppSettings {
         \Library\Enums\AppSettingKeys::RootImageFolderPath => "../Web/images/",
         \Library\Enums\AppSettingKeys::UseEmailLinkForFirstLogin => TRUE,
         \Library\Enums\AppSettingKeys::TooltipsXmlFileName => "Applications\{{app_name}}\Resources\Common\\tooltipandpopupstrings.{{culture}}.xml",
-        \Library\Enums\AppSettingKeys::CacheTtl => 21600,//6 hours
+        \Library\Enums\AppSettingKeys::CacheTtl => 21600, //6 hours
         \Library\Enums\AppSettingKeys::CACHETYPEUSED => "TYPE_APC", //See possible value in constants of Library\Core\Cache\BaseCache.php
     );
-  }  
+  }
+
 }

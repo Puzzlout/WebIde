@@ -11,7 +11,7 @@
  * @package LoginVm
  */
 
-namespace Applications\EasyMvc\ViewModels\Account;
+namespace WebDevJL\WebIde\ViewModels\Account;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
   exit('No direct script access allowed');
@@ -21,4 +21,5 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
  * @see \Library\ViewModels\Base for the guidelines to create a View Models.
  */
 class LoginVm extends AccountBaseVm {
+  
 }

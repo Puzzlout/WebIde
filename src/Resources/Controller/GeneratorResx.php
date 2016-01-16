@@ -1,4 +1,5 @@
 <?php
+
 /**
  * List of the resources values for the module account
  * 
@@ -10,11 +11,18 @@
  * @package GeneratorResx
  */
 
-namespace Applications\EasyMvc\Resources\Controller;
+namespace WebDevJL\WebIde\Resources\Controller;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
   exit('No direct script access allowed');
 }
 
 class GeneratorResx {
-  const BUILDDAO = 'builddao';  const PAGETITLE = 'pagetitle';  const F_CONTROLLER_RESOURCE_VALUE = 'f_controller_resource_value';  const F_CONTROLLER_RESOURCE_COMMENT = 'f_controller_resource_comment';  const BUILDRESOURCES = 'buildresources';}
+
+  const BUILDDAO = 'builddao';
+  const PAGETITLE = 'pagetitle';
+  const F_CONTROLLER_RESOURCE_VALUE = 'f_controller_resource_value';
+  const F_CONTROLLER_RESOURCE_COMMENT = 'f_controller_resource_comment';
+  const BUILDRESOURCES = 'buildresources';
+
+}

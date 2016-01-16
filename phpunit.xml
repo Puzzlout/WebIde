@@ -9,9 +9,9 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="false">
-    <testsuites>
-        <testsuite name="EasyMvc Framework test suite">
-            <directory suffix=".php">./tests/</directory>
-        </testsuite>
-    </testsuites>
+  <testsuites>
+    <testsuite name="EasyMvc Webapp test suite">
+      <directory suffix=".php">./tests/</directory>
+    </testsuite>
+  </testsuites>
 </phpunit>

@@ -1,4 +1,8 @@
-<?php if (!FrameworkConstants_ExecutionAccessRestriction) { exit('No direct script access allowed'); } ?>
+<?php
+if (!FrameworkConstants_ExecutionAccessRestriction) {
+  exit('No direct script access allowed');
+}
+?>
 <form action="<?php echo $this->app->relative_path; ?>upload" class="dropzone" id="document-upload">
   <input type="hidden" name="itemCategory"/>
   <input type="hidden" name="itemId"/>

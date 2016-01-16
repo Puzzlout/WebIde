@@ -15,14 +15,14 @@
 /**
  * _TemplateHelper Class
  *
- * @subpackage  Applications\EasyMvc
+ * @subpackage  WebDevJL\WebIde
  * @category    Helpers
  * @category	_TemplateHelper
  * @author		Jeremie Litzler
  * @link		
  */
 
-namespace Applications\EasyMvc\Helpers;
+namespace WebDevJL\WebIde\Helpers;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
   exit('No direct script access allowed');

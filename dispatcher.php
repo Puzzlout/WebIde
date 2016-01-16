@@ -15,7 +15,7 @@ try {
   $logGuid = \Library\Utility\TimeLogger::StartLogInfo($app, "PageLoad => " . FrameworkConstants_BaseUrl . $app->httpRequest()->requestURI());
   $output = $app->run();
   \Library\Utility\TimeLogger::EndLog($app, $logGuid);
-  if($app->httpRequest()->IsPost()) {
+  if ($app->httpRequest()->IsPost()) {
     echo $output;
   } else {
     exit($output);

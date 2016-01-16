@@ -1,7 +1,9 @@
 <?php
-use Applications\EasyMvc\Resources\Controller\AccountResx;
-$ViewModel = new \Applications\EasyMvc\ViewModels\Account\LoginVm($this->app);
-if (!($ControllerVm instanceof Applications\EasyMvc\ViewModels\Account\LoginVm)) {
+
+use WebDevJL\WebIde\Resources\Controller\AccountResx;
+
+$ViewModel = new \WebDevJL\WebIde\ViewModels\Account\LoginVm($this->app);
+if (!($ControllerVm instanceof WebDevJL\WebIde\ViewModels\Account\LoginVm)) {
   throw new Library\Exceptions\InvalidViewModelTypeException();
 } else {
   $ViewModel = clone $ControllerVm;
@@ -44,7 +46,7 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
 <!--        <input name="remember_me" type="checkbox" value="" />
   <?php echo "remember_me_label"; ?>
   <a href="#" name="forgot_pwd"  class="password">
-<?php echo "forgot_pwd_label"; ?>
+  <?php echo "forgot_pwd_label"; ?>
   </a>-->
 </p>
 <div class="login-btn">

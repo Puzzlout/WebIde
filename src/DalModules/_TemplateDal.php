@@ -1,9 +1,10 @@
 <?php
 
-namespace Applications\EasyMvc\DalModules;
+namespace WebDevJL\WebIde\DalModules;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed'); }
+  exit('No direct script access allowed');
+}
 
 /**
  * Replace '_Template' by your custom name
@@ -21,4 +22,5 @@ class _TemplateDal extends \Library\Dal\BaseManager {
   public function countById($id) {
     return NULL;
   }
+
 }

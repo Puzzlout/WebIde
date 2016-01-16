@@ -11,8 +11,9 @@
  * @package AccountController
  */
 
-namespace Applications\EasyMvc\Controllers;
-use \Applications\EasyMvc\ViewModels;
+namespace WebDevJL\WebIde\Controllers;
+
+use \WebDevJL\WebIde\ViewModels;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
   exit('No direct script access allowed');
@@ -39,8 +40,7 @@ class AccountController extends \Library\Controllers\BaseController {
   public function Authenticate() {
     $result = $this->InitResponseWS();
     $userPost = \Library\Helpers\CommonHelper::PrepareUserObject($this->dataPost(), new \Library\BO\F_user());
-    $userDatabase =
-            $this
+    $userDatabase = $this
             ->app()
             ->dal()
             ->getDalInstance('Login')
@@ -61,7 +61,7 @@ class AccountController extends \Library\Controllers\BaseController {
       }
     }
     $this->SendResponseWS($result, array(
-        "resx_file" => \Applications\EasyMvc\Resources\Enums\ResxFileNameKeys::Login,
+        "resx_file" => \WebDevJL\WebIde\Resources\Enums\ResxFileNameKeys::Login,
         "resx_key" => $this->action(),
         "step" => $dbResult > 0 ? "success" : "error"
     ));
@@ -85,7 +85,7 @@ class AccountController extends \Library\Controllers\BaseController {
    * @param \Library\HttpRequest $rq
    */
   public function Create() {
-    $protect = new \Library\Security\Protect ($this->app()->config());
+    $protect = new \Library\Security\Protect($this->app()->config());
     $data = array(
         "username" => $rq->getData("login"),
         "password" => $rq->getData("pwd"),
@@ -95,17 +95,17 @@ class AccountController extends \Library\Controllers\BaseController {
     $user = \Library\Helpers\CommonHelper::PrepareUserObject($data, new Library\BO\User());
     $user->setPassword($protect->HashValue($this->app->config->get("PaswordSalt"), $user->password()));
 
-    $id =
-            $this
+    $id = $this
             ->app()
             ->dal()
             ->getDalInstance('Login')
             ->add($user);
-    
+
     $redirect = intval($id) > 0 ? TRUE : FALSE;
 
     if ($redirect) {
       $this->Redirect("login");
     }
   }
+
 }

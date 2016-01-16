@@ -1,10 +1,14 @@
-<?php if (!FrameworkConstants_ExecutionAccessRestriction) { exit('No direct script access allowed'); } ?>
+<?php
+if (!FrameworkConstants_ExecutionAccessRestriction) {
+  exit('No direct script access allowed');
+}
+?>
 <div class="right-aside main col-lg-10 col-md-10 col-sm-10">
   <h3><?php echo $resx["h3_title"]; ?><span class="glyphicon glyphicon-chevron-right"></span> <?php echo $resx["h3_sub_title_all_projects"]; ?></h3>
   <div class="content-container container-fluid">
     <div class="row">
       <div class="col-lg-12 col-md-12">
-        <?php require $form_modules[\Applications\EasyMvc\Resources\Enums\ViewVariablesKeys::map_module]; ?>
+        <?php require $form_modules[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::map_module]; ?>
       </div>
     </div>
   </div>

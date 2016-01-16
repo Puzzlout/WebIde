@@ -1,4 +1,5 @@
 <?php
+
 /**
  * List of the resources values for the module generator
  * 
@@ -10,12 +11,27 @@
  * @package GeneratorResx_en_US extends GeneratorResx
  */
 
-namespace Applications\EasyMvc\Resources\Controller;
+namespace WebDevJL\WebIde\Resources\Controller;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
   exit('No direct script access allowed');
 }
 
 class GeneratorResx_en_US extends GeneratorResx {
-  public function GetList() {    return array(      self::BUILDDAO => array(        self::PAGETITLE => array(        self::F_CONTROLLER_RESOURCE_VALUE => "Code generation - DAO",        self::F_CONTROLLER_RESOURCE_COMMENT => "Page title",      ),      ),      self::BUILDRESOURCES => array(        self::PAGETITLE => array(        self::F_CONTROLLER_RESOURCE_VALUE => "Code generation - Resources",        self::F_CONTROLLER_RESOURCE_COMMENT => "Page title",      ),      ),    );  }
-}
+
+  public function GetList() {
+    return array(
+        self::BUILDDAO => array(
+            self::PAGETITLE => array(
+                self::F_CONTROLLER_RESOURCE_VALUE => "Code generation - DAO",
+                self::F_CONTROLLER_RESOURCE_COMMENT => "Page title",
+            ),),
+        self::BUILDRESOURCES => array(
+            self::PAGETITLE => array(
+                self::F_CONTROLLER_RESOURCE_VALUE => "Code generation - Resources",
+                self::F_CONTROLLER_RESOURCE_COMMENT => "Page title",
+            ),),
+    );
+  }
+
+}
