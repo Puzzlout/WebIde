@@ -45,5 +45,5 @@ a, a:hover {text-decoration: none; cursor: pointer;}
   border-left: solid 1px #F39814; 
 }
 .content_left li:hover > ul li:hover a {
- display: block;
+  display: block;
 }

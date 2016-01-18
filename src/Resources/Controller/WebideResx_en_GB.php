@@ -14,19 +14,19 @@
 namespace WebDevJL\WebIde\Resources\Controller;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 class WebideResx_en_GB extends WebideResx {
 
-  public function GetList() {
-    return array(
-        self::CREATEFILE => array(
-            self::PAGETITLE => array(
-                self::F_CONTROLLER_RESOURCE_VALUE => "IDE - Create a file or class",
-                self::F_CONTROLLER_RESOURCE_COMMENT => "Page title",
-            ),),
-    );
-  }
+    public function GetList() {
+        return array(
+            self::CREATEFILE => array(
+                self::PAGETITLE => array(
+                    self::F_CONTROLLER_RESOURCE_VALUE => "IDE - Create a file or class",
+                    self::F_CONTROLLER_RESOURCE_COMMENT => "Page title",
+                ),),
+        );
+    }
 
 }

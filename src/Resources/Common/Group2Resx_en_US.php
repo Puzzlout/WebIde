@@ -14,22 +14,22 @@
 namespace WebDevJL\WebIde\Resources\Common;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 class Group2Resx_en_US extends Group2Resx {
 
-  public function GetList() {
-    return array(
-        self::TEST1 => array(
-            self::F_COMMON_RESOURCE_VALUE => "This is a test value1",
-            self::F_COMMON_RESOURCE_COMMENT => "Testing purpose",
-        ),
-        self::TEST2 => array(
-            self::F_COMMON_RESOURCE_VALUE => "This is a test value2",
-            self::F_COMMON_RESOURCE_COMMENT => "Testing purpose",
-        ),
-    );
-  }
+    public function GetList() {
+        return array(
+            self::TEST1 => array(
+                self::F_COMMON_RESOURCE_VALUE => "This is a test value1",
+                self::F_COMMON_RESOURCE_COMMENT => "Testing purpose",
+            ),
+            self::TEST2 => array(
+                self::F_COMMON_RESOURCE_VALUE => "This is a test value2",
+                self::F_COMMON_RESOURCE_COMMENT => "Testing purpose",
+            ),
+        );
+    }
 
 }

@@ -14,14 +14,14 @@
 namespace WebDevJL\WebIde\Resources\Common;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 class Group2Resx {
 
-  const TEST1 = 'test1';
-  const F_COMMON_RESOURCE_VALUE = 'f_common_resource_value';
-  const F_COMMON_RESOURCE_COMMENT = 'f_common_resource_comment';
-  const TEST2 = 'test2';
+    const TEST1 = 'test1';
+    const F_COMMON_RESOURCE_VALUE = 'f_common_resource_value';
+    const F_COMMON_RESOURCE_COMMENT = 'f_common_resource_comment';
+    const TEST2 = 'test2';
 
 }

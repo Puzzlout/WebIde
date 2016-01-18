@@ -25,12 +25,12 @@
 namespace WebDevJL\WebIde\Resources\Enums;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 class ViewVariablesKeys {
 
-  const Resx = "Resx";
-  const ControllerVm = "ControllerVm";
+    const Resx = "Resx";
+    const ControllerVm = "ControllerVm";
 
 }

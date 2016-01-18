@@ -14,19 +14,19 @@
 namespace WebDevJL\WebIde\Generated;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 class EasyMvcDalModules {
 
-  const LOGINDAL = 'LoginDal';
-  const _TEMPLATEDAL = '_TemplateDal';
+    const LOGINDAL = 'LoginDal';
+    const _TEMPLATEDAL = '_TemplateDal';
 
-  public static function GetList() {
-    return array(
-        self::LOGINDAL => 'LoginDal',
-        self::_TEMPLATEDAL => '_TemplateDal',
-    );
-  }
+    public static function GetList() {
+        return array(
+            self::LOGINDAL => 'LoginDal',
+            self::_TEMPLATEDAL => '_TemplateDal',
+        );
+    }
 
 }

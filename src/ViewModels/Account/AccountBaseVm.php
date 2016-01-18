@@ -14,12 +14,12 @@
 namespace WebDevJL\WebIde\ViewModels\Account;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 /**
  * @see \Library\ViewModels\Base for the guidelines to create a View Models.
  */
 class AccountBaseVm extends \Library\ViewModels\BaseVm {
-  
+    
 }

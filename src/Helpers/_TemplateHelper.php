@@ -25,9 +25,9 @@
 namespace WebDevJL\WebIde\Helpers;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 class _TemplateHelper {
-  
+    
 }

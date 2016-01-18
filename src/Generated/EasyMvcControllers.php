@@ -14,17 +14,17 @@
 namespace WebDevJL\WebIde\Generated;
 
 if (!FrameworkConstants_ExecutionAccessRestriction) {
-  exit('No direct script access allowed');
+    exit('No direct script access allowed');
 }
 
 class EasyMvcControllers {
 
-  const ACCOUNTCONTROLLER = 'AccountController';
+    const ACCOUNTCONTROLLER = 'AccountController';
 
-  public static function GetList() {
-    return array(
-        self::ACCOUNTCONTROLLER => 'AccountController',
-    );
-  }
+    public static function GetList() {
+        return array(
+            self::ACCOUNTCONTROLLER => 'AccountController',
+        );
+    }
 
 }

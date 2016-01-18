@@ -2,8 +2,8 @@
 
 /* GENERAL STYLES */
 .validator {
- // display: none;
- // color: #FC7F6F;
+  // display: none;
+  // color: #FC7F6F;
 }
 
 /* END GENRAL */
@@ -79,12 +79,12 @@ ui-widget-content:hover {
 .ui-selecting { background: #FECA40; }
 
 .ui-selected { 
-    background: #F39814; 
-    color: white; 
+  background: #F39814; 
+  color: white; 
 }
 
 .context-menu-active {
-    font-weight: bold; 
-    color: #F39814;
+  font-weight: bold; 
+  color: #F39814;
 }
 /* JS WIDGETS */
