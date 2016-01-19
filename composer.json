@@ -1,25 +1,25 @@
 {
-  "name": "webdevjl/easy-mvc-webapp",
-  "description": "The EasyMvc website to showcase the ability to build websites",
-  "license": "MIT",
-  "keywords": ["webdevjl", "web", "dev", "jl", "easymvc", "mvc"],
-  "authors": [
-    {
-      "name": "Jeremie Litzler",
-      "email": "contact@jeremielitzler.net"
+    "name": "webdevjl/easy-mvc-webapp",
+    "description": "The EasyMvc website to showcase the ability to build websites",
+    "license": "MIT",
+    "keywords": ["webdevjl", "web", "dev", "jl", "easymvc", "mvc"],
+    "authors": [
+        {
+            "name": "Jeremie Litzler",
+            "email": "contact@jeremielitzler.net"
+        }
+    ],
+    "version": "1.0.0-dev.1",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "webdevjl/framework-mvc": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebDevJL\\Framework\\": "src"
+        }
     }
-  ],
-  "version": "1.0.0-dev.1",
-  "require": {
-    "php": ">=5.4.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "4.8.*",
-    "webdevjl/framework-mvc": "dev-master"
-  },
-  "autoload": {
-    "psr-4": {
-      "WebDevJL\\Framework\\": "src"
-    }
-  }
 }

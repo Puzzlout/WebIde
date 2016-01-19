@@ -31,8 +31,8 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
                 <?php echo $resx["task_tab_field_analytes"]; ?>
             </a>
         </li>
-    <!--    <li class="tab <?php //echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::FieldSampleMatrixTab];       ?>" id="tab3a" data-form-id="field_matrix">
-          <a href="<?php //echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::FieldSampleMatrix;       ?>">
+    <!--    <li class="tab <?php //echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::FieldSampleMatrixTab];         ?>" id="tab3a" data-form-id="field_matrix">
+          <a href="<?php //echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::FieldSampleMatrix;         ?>">
             Field Matrix
           </a>
         </li>-->  
@@ -41,8 +41,8 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
                 <?php echo $resx["task_tab_lab_analytes"]; ?>
             </a>
         </li>
-    <!--    <li class="tab <?php //echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::LabSampleMatrixTab];       ?>" id="tab6" data-form-id="lab_matrix">
-          <a href="<?php //echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::LabSampleMatrix;       ?>">
+    <!--    <li class="tab <?php //echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::LabSampleMatrixTab];         ?>" id="tab6" data-form-id="lab_matrix">
+          <a href="<?php //echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::LabSampleMatrix;         ?>">
             Lab Matrix
           </a>
         </li>-->
