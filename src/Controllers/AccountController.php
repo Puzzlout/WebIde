@@ -13,13 +13,9 @@
 
 namespace WebDevJL\WebIde\Controllers;
 
-use \WebDevJL\WebIde\ViewModels;
+use WebDevJL\WebIde\ViewModels;
 
-if (!FrameworkConstants_ExecutionAccessRestriction) {
-    exit('No direct script access allowed');
-}
-
-class AccountController extends \Library\Controllers\BaseController {
+class AccountController extends \WebDevJL\Framework\Controllers\BaseController {
 
     /**
      * Loads the Login view.

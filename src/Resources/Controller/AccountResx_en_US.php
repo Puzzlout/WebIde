@@ -13,10 +13,6 @@
 
 namespace WebDevJL\WebIde\Resources\Controller;
 
-if (!FrameworkConstants_ExecutionAccessRestriction) {
-    exit('No direct script access allowed');
-}
-
 class AccountResx_en_US extends AccountResx {
 
     public function GetList() {

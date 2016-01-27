@@ -13,10 +13,6 @@
 
 namespace WebDevJL\WebIde\Resources\Controller;
 
-if (!FrameworkConstants_ExecutionAccessRestriction) {
-    exit('No direct script access allowed');
-}
-
 class GeneratorResx_en_GB extends GeneratorResx {
 
     public function GetList() {

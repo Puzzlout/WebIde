@@ -9,7 +9,7 @@ require_once 'errorHandler.php';
  */
 session_start();
 
-$errorLogger = new Library\Core\ErrorManager();
+$errorLogger = new WebDevJL\Framework\Core\ErrorManager();
 try {
     $app = new $appClassName($errorLogger);
     $logGuid = \Library\Utility\TimeLogger::StartLogInfo($app, "PageLoad => " . FrameworkConstants_BaseUrl . $app->httpRequest()->requestURI());
