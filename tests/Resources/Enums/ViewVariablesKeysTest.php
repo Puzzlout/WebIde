@@ -5,9 +5,9 @@
  * @since Test Suite v1.1.0
  */
 
-namespace WebDevJL\WebdIde\Tests\Resources\Enums;
+namespace Puzzlout\WebdIde\Tests\Resources\Enums;
 
-use WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys;
+use Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys;
 
 class ViewVariablesKeysTest extends \PHPUnit_Framework_TestCase {
 
@@ -18,7 +18,7 @@ class ViewVariablesKeysTest extends \PHPUnit_Framework_TestCase {
    */
   protected function setUp()
   {
-      $this->app = new \WebDevJL\WebIde\Tests\TestApplication();
+      $this->app = new \Puzzlout\WebIde\Tests\TestApplication();
   }
   
   /**
@@ -28,7 +28,7 @@ class ViewVariablesKeysTest extends \PHPUnit_Framework_TestCase {
   {
     $this->assertNotNull($this->app);
     $result = new ViewVariablesKeys($this->app);
-    $this->assertInstanceOf('WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys', $result);
+    $this->assertInstanceOf('Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys', $result);
   }
   
   //Write the next tests below...

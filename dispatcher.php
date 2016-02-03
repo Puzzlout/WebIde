@@ -9,7 +9,7 @@ require_once 'errorHandler.php';
  */
 session_start();
 
-$errorLogger = new \WebDevJL\Framework\Core\ErrorManager();
+$errorLogger = new \Puzzlout\Framework\Core\ErrorManager();
 try {
     $app = new $appClassName($errorLogger);
     $logGuid = \Library\Utility\TimeLogger::StartLogInfo($app, "PageLoad => " . FrameworkConstants_BaseUrl . $app->httpRequest()->requestURI());

@@ -1,6 +1,6 @@
 <?php
 
-namespace WebDevJL\WebIde\DalModules;
+namespace Puzzlout\WebIde\DalModules;
 
 class LoginDal extends \Library\Dal\BaseManager {
 

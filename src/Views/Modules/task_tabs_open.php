@@ -6,52 +6,52 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
 
 <div id="tab-container" class="tab-container">
     <ul class="etabs">
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::InfoTab]; ?>" data-form-id="task_info">
-            <a href="<?php echo FrameworkConstants_BaseUrl . \WebDevJL\WebIde\Helpers\TaskHelper::GetTaskInfoTabUrl($current_task); ?>">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::InfoTab]; ?>" data-form-id="task_info">
+            <a href="<?php echo FrameworkConstants_BaseUrl . \Puzzlout\WebIde\Helpers\TaskHelper::GetTaskInfoTabUrl($current_task); ?>">
                 <?php echo $resx["task_tab_info"]; ?>
             </a>
         </li>
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::TechniciansTab]; ?>" data-form-id="task_technicians">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::TechniciansTab]; ?>" data-form-id="task_technicians">
             <a href="<?php echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::TaskTechnicians; ?>">
                 <?php echo $resx["task_tab_technicians"]; ?>
             </a>
         </li>
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::LocationsTab]; ?>" data-form-id="task_locations">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::LocationsTab]; ?>" data-form-id="task_locations">
             <a href="<?php echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::TaskLocations; ?>">
                 <?php echo $resx["task_tab_locations"]; ?>
             </a>
         </li>
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::InspFormsTab]; ?>" id="tab2" data-form-id="task_insp_info">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::InspFormsTab]; ?>" id="tab2" data-form-id="task_insp_info">
             <a href="<?php echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::TaskInspForms; ?>">
                 <?php echo $resx["task_tab_forms"]; ?>
             </a>
         </li>
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::FieldAnalytesTab]; ?>" id="tab3" data-form-id="field_analytes">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::FieldAnalytesTab]; ?>" id="tab3" data-form-id="field_analytes">
             <a href="<?php echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::FieldAnalytes; ?>">
                 <?php echo $resx["task_tab_field_analytes"]; ?>
             </a>
         </li>
-    <!--    <li class="tab <?php //echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::FieldSampleMatrixTab];         ?>" id="tab3a" data-form-id="field_matrix">
+    <!--    <li class="tab <?php //echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::FieldSampleMatrixTab];         ?>" id="tab3a" data-form-id="field_matrix">
           <a href="<?php //echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::FieldSampleMatrix;         ?>">
             Field Matrix
           </a>
         </li>-->  
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::LabAnalytesTab]; ?>" id="tab5" data-form-id="lab_analytes">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::LabAnalytesTab]; ?>" id="tab5" data-form-id="lab_analytes">
             <a href="<?php echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::LabAnalytes; ?>">
                 <?php echo $resx["task_tab_lab_analytes"]; ?>
             </a>
         </li>
-    <!--    <li class="tab <?php //echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::LabSampleMatrixTab];         ?>" id="tab6" data-form-id="lab_matrix">
+    <!--    <li class="tab <?php //echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::LabSampleMatrixTab];         ?>" id="tab6" data-form-id="lab_matrix">
           <a href="<?php //echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::LabSampleMatrix;         ?>">
             Lab Matrix
           </a>
         </li>-->
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::CocTab]; ?>" id="tab4" data-form-id="task_coc_info">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::CocTab]; ?>" id="tab4" data-form-id="task_coc_info">
             <a href="<?php echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::TaskCOC; ?>">
                 <?php echo $resx["task_tab_coc"]; ?>
             </a>
         </li>  
-        <li class="tab <?php echo $tab[\WebDevJL\WebIde\Resources\Enums\TaskTabKeys::ServicesTab]; ?>" id="tab7" data-form-id="task_services">
+        <li class="tab <?php echo $tab[\Puzzlout\WebIde\Resources\Enums\TaskTabKeys::ServicesTab]; ?>" id="tab7" data-form-id="task_services">
             <a href="<?php echo FrameworkConstants_BaseUrl . \Library\Enums\UrlKeys::TaskServices; ?>">
                 <?php echo $resx["task_tab_services"]; ?>
             </a>

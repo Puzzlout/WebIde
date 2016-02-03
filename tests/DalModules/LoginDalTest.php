@@ -5,9 +5,9 @@
  * @since Test Suite v1.1.0
  */
 
-namespace WebDevJL\WebdIde\Tests\DalModules;
+namespace Puzzlout\WebdIde\Tests\DalModules;
 
-use WebDevJL\WebIde\DalModules\LoginDal;
+use Puzzlout\WebIde\DalModules\LoginDal;
 
 class LoginDalTest extends \PHPUnit_Framework_TestCase {
 
@@ -18,7 +18,7 @@ class LoginDalTest extends \PHPUnit_Framework_TestCase {
    */
   protected function setUp()
   {
-      $this->app = new \WebDevJL\WebIde\Tests\TestApplication();
+      $this->app = new \Puzzlout\WebIde\Tests\TestApplication();
   }
   
   /**
@@ -28,7 +28,7 @@ class LoginDalTest extends \PHPUnit_Framework_TestCase {
   {
     $this->assertNotNull($this->app);
     $result = new LoginDal($this->app);
-    $this->assertInstanceOf('WebDevJL\WebIde\DalModules\LoginDal', $result);
+    $this->assertInstanceOf('Puzzlout\WebIde\DalModules\LoginDal', $result);
   }
   
   //Write the next tests below...

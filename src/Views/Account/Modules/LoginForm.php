@@ -1,9 +1,9 @@
 <?php
 
-use WebDevJL\WebIde\Resources\Controller\AccountResx;
+use Puzzlout\WebIde\Resources\Controller\AccountResx;
 
-$ViewModel = new \WebDevJL\WebIde\ViewModels\Account\LoginVm($this->app);
-if (!($ControllerVm instanceof WebDevJL\WebIde\ViewModels\Account\LoginVm)) {
+$ViewModel = new \Puzzlout\WebIde\ViewModels\Account\LoginVm($this->app);
+if (!($ControllerVm instanceof Puzzlout\WebIde\ViewModels\Account\LoginVm)) {
     throw new Library\Exceptions\InvalidViewModelTypeException();
 } else {
     $ViewModel = clone $ControllerVm;

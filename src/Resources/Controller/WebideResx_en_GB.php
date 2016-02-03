@@ -6,12 +6,12 @@
  * @author Jeremie Litzler
  * @copyright Copyright (c) 2015
  * @licence http://opensource.org/licenses/gpl-license.php GNU Public License
- * @link https://github.com/WebDevJL/EasyMvc/blob/master/README.md
+ * @link https://github.com/Puzzlout/EasyMvc/blob/master/README.md
  * @since Version 1.0.2.1
  * @package WebideResx_en_GB extends WebideResx
  */
 
-namespace WebDevJL\WebIde\Resources\Controller;
+namespace Puzzlout\WebIde\Resources\Controller;
 
 class WebideResx_en_GB extends WebideResx {
 

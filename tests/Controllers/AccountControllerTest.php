@@ -5,9 +5,9 @@
  * @since Test Suite v1.1.0
  */
 
-namespace WebDevJL\WebdIde\Tests\Controllers;
+namespace Puzzlout\WebdIde\Tests\Controllers;
 
-use WebDevJL\WebIde\Controllers\AccountController;
+use Puzzlout\WebIde\Controllers\AccountController;
 
 class AccountControllerTest extends \PHPUnit_Framework_TestCase {
 
@@ -18,7 +18,7 @@ class AccountControllerTest extends \PHPUnit_Framework_TestCase {
    */
   protected function setUp()
   {
-      $this->app = new \WebDevJL\WebIde\Tests\TestApplication();
+      $this->app = new \Puzzlout\WebIde\Tests\TestApplication();
   }
   
   /**
@@ -28,7 +28,7 @@ class AccountControllerTest extends \PHPUnit_Framework_TestCase {
   {
     $this->assertNotNull($this->app);
     $result = new AccountController($this->app);
-    $this->assertInstanceOf('WebDevJL\WebIde\Controllers\AccountController', $result);
+    $this->assertInstanceOf('Puzzlout\WebIde\Controllers\AccountController', $result);
   }
   
   //Write the next tests below...

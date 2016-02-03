@@ -16,21 +16,21 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
             }
         }
 
-        foreach ($data[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::objects] as $object) {
+        foreach ($data[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::objects] as $object) {
             if (!$object->
-                    $data[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::properties]
-                    [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::property_active]) {
+                    $data[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::properties]
+                    [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::property_active]) {
                 echo
                 "<li data-"
-                . $data[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::module]
+                . $data[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::module]
                 . "-id=\""
                 . $object->
-                $data[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::properties]
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::property_id]
+                $data[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::properties]
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::property_id]
                 . "\" class=\"select_item ui-widget-content\"" . $tooltip_configstr . ">"
                 . $object->
-                $data[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::properties]
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::property_name]
+                $data[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::properties]
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::property_name]
                 . "</li>";
             }
         }

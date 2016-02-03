@@ -5,9 +5,9 @@
  * @since Test Suite v1.1.0
  */
 
-namespace WebDevJL\WebdIde\Tests\Resources\Common;
+namespace Puzzlout\WebdIde\Tests\Resources\Common;
 
-use WebDevJL\WebIde\Resources\Common\Group2Resx_en_US;
+use Puzzlout\WebIde\Resources\Common\Group2Resx_en_US;
 
 class Group2Resx_en_USTest extends \PHPUnit_Framework_TestCase {
 
@@ -18,7 +18,7 @@ class Group2Resx_en_USTest extends \PHPUnit_Framework_TestCase {
    */
   protected function setUp()
   {
-      $this->app = new \WebDevJL\WebIde\Tests\TestApplication();
+      $this->app = new \Puzzlout\WebIde\Tests\TestApplication();
   }
   
   /**
@@ -28,7 +28,7 @@ class Group2Resx_en_USTest extends \PHPUnit_Framework_TestCase {
   {
     $this->assertNotNull($this->app);
     $result = new Group2Resx_en_US($this->app);
-    $this->assertInstanceOf('WebDevJL\WebIde\Resources\Common\Group2Resx_en_US', $result);
+    $this->assertInstanceOf('Puzzlout\WebIde\Resources\Common\Group2Resx_en_US', $result);
   }
   
   //Write the next tests below...

@@ -22,7 +22,7 @@
  * @link		
  */
 
-namespace WebDevJL\WebIde\Resources\Enums;
+namespace Puzzlout\WebIde\Resources\Enums;
 
 class ViewVariablesKeys {
 

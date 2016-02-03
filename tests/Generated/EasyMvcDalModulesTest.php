@@ -5,9 +5,9 @@
  * @since Test Suite v1.1.0
  */
 
-namespace WebDevJL\WebdIde\Tests\Generated;
+namespace Puzzlout\WebdIde\Tests\Generated;
 
-use WebDevJL\WebIde\Generated\EasyMvcDalModules;
+use Puzzlout\WebIde\Generated\EasyMvcDalModules;
 
 class EasyMvcDalModulesTest extends \PHPUnit_Framework_TestCase {
 
@@ -18,7 +18,7 @@ class EasyMvcDalModulesTest extends \PHPUnit_Framework_TestCase {
    */
   protected function setUp()
   {
-      $this->app = new \WebDevJL\WebIde\Tests\TestApplication();
+      $this->app = new \Puzzlout\WebIde\Tests\TestApplication();
   }
   
   /**
@@ -28,7 +28,7 @@ class EasyMvcDalModulesTest extends \PHPUnit_Framework_TestCase {
   {
     $this->assertNotNull($this->app);
     $result = new EasyMvcDalModules($this->app);
-    $this->assertInstanceOf('WebDevJL\WebIde\Generated\EasyMvcDalModules', $result);
+    $this->assertInstanceOf('Puzzlout\WebIde\Generated\EasyMvcDalModules', $result);
   }
   
   //Write the next tests below...

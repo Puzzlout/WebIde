@@ -17,19 +17,19 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
         }
 
         $prop_active = $data
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::properties]
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::property_active];
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::properties]
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::property_active];
         $prop_id = $data
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::properties]
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::property_id];
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::properties]
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::property_id];
         $prop_name = $data
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::properties]
-                [\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::property_name];
-        foreach ($data[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::objects] as $object) {
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::properties]
+                [\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::property_name];
+        foreach ($data[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::objects] as $object) {
             if ($object->$prop_active()) {
                 echo
                 "<li data-"
-                . $data[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::module] . "-id=\"" . $object->$prop_id()
+                . $data[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::module] . "-id=\"" . $object->$prop_id()
                 . "\" class=\"select_item ui-widget-content\"" . $tooltip_configstr . ">"
                 . $object->$prop_name()
                 . "</li>";

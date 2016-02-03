@@ -5,9 +5,9 @@
  * @since Test Suite v1.1.0
  */
 
-namespace WebDevJL\WebdIde\Tests\ViewModels\Account;
+namespace Puzzlout\WebdIde\Tests\ViewModels\Account;
 
-use WebDevJL\WebIde\ViewModels\Account\AccountBaseVm;
+use Puzzlout\WebIde\ViewModels\Account\AccountBaseVm;
 
 class AccountBaseVmTest extends \PHPUnit_Framework_TestCase {
 
@@ -18,7 +18,7 @@ class AccountBaseVmTest extends \PHPUnit_Framework_TestCase {
    */
   protected function setUp()
   {
-      $this->app = new \WebDevJL\WebIde\Tests\TestApplication();
+      $this->app = new \Puzzlout\WebIde\Tests\TestApplication();
   }
   
   /**
@@ -28,7 +28,7 @@ class AccountBaseVmTest extends \PHPUnit_Framework_TestCase {
   {
     $this->assertNotNull($this->app);
     $result = new AccountBaseVm($this->app);
-    $this->assertInstanceOf('WebDevJL\WebIde\ViewModels\Account\AccountBaseVm', $result);
+    $this->assertInstanceOf('Puzzlout\WebIde\ViewModels\Account\AccountBaseVm', $result);
   }
   
   //Write the next tests below...

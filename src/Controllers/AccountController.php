@@ -6,16 +6,16 @@
  * @author Jeremie Litzler
  * @copyright Copyright (c) 2015
  * @licence http://opensource.org/licenses/gpl-license.php GNU Public License
- * @link https://github.com/WebDevJL/EasyMvc
+ * @link https://github.com/Puzzlout/EasyMvc
  * @since Version 1.0.0
  * @package AccountController
  */
 
-namespace WebDevJL\WebIde\Controllers;
+namespace Puzzlout\WebIde\Controllers;
 
-use WebDevJL\WebIde\ViewModels;
+use Puzzlout\WebIde\ViewModels;
 
-class AccountController extends \WebDevJL\Framework\Controllers\BaseController {
+class AccountController extends \Puzzlout\Framework\Controllers\BaseController {
 
     /**
      * Loads the Login view.
@@ -57,7 +57,7 @@ class AccountController extends \WebDevJL\Framework\Controllers\BaseController {
             }
         }
         $this->SendResponseWS($result, array(
-            "resx_file" => \WebDevJL\WebIde\Resources\Enums\ResxFileNameKeys::Login,
+            "resx_file" => \Puzzlout\WebIde\Resources\Enums\ResxFileNameKeys::Login,
             "resx_key" => $this->action(),
             "step" => $dbResult > 0 ? "success" : "error"
         ));

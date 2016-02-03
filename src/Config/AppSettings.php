@@ -5,14 +5,14 @@
  * @author Jeremie Litzler
  * @copyright Copyright (c) 2015
  * @licence http://opensource.org/licenses/gpl-license.php GNU Public License
- * @link https://github.com/WebDevJL/EasyMvc
+ * @link https://github.com/Puzzlout/EasyMvc
  * @since Version 1.0.0
  * @package AppSettings
  */
 
-namespace WebDevJL\WebIde\Config;
+namespace Puzzlout\WebIde\Config;
 
-use WebDevJL\Framework\Enums\AppSettingKeys;
+use Puzzlout\Framework\Enums\AppSettingKeys;
 
 class AppSettings {
 
@@ -44,7 +44,7 @@ class AppSettings {
             AppSettingKeys::Myslq_host => "localhost",
             AppSettingKeys::Mysql_db_name => "easymvc_db",
             AppSettingKeys::Mysql_pwd => "jUL%C9%15",
-            AppSettingKeys::Mysql_user => "webdevjl",
+            AppSettingKeys::Mysql_user => "Puzzlout",
             AppSettingKeys::PasswordSalt => "g496lJL683yFiDzju2K94f1751Lo7WSw",
             AppSettingKeys::RootDocumentUpload => "ClientSide/upload/",
             AppSettingKeys::RootImageFolderPath => "../Web/images/",

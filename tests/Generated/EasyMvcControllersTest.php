@@ -5,9 +5,9 @@
  * @since Test Suite v1.1.0
  */
 
-namespace WebDevJL\WebdIde\Tests\Generated;
+namespace Puzzlout\WebdIde\Tests\Generated;
 
-use WebDevJL\WebIde\Generated\EasyMvcControllers;
+use Puzzlout\WebIde\Generated\EasyMvcControllers;
 
 class EasyMvcControllersTest extends \PHPUnit_Framework_TestCase {
 
@@ -18,7 +18,7 @@ class EasyMvcControllersTest extends \PHPUnit_Framework_TestCase {
    */
   protected function setUp()
   {
-      $this->app = new \WebDevJL\WebIde\Tests\TestApplication();
+      $this->app = new \Puzzlout\WebIde\Tests\TestApplication();
   }
   
   /**
@@ -28,7 +28,7 @@ class EasyMvcControllersTest extends \PHPUnit_Framework_TestCase {
   {
     $this->assertNotNull($this->app);
     $result = new EasyMvcControllers($this->app);
-    $this->assertInstanceOf('WebDevJL\WebIde\Generated\EasyMvcControllers', $result);
+    $this->assertInstanceOf('Puzzlout\WebIde\Generated\EasyMvcControllers', $result);
   }
   
   //Write the next tests below...

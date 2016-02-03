@@ -8,7 +8,7 @@ if (!FrameworkConstants_ExecutionAccessRestriction) {
     <div class="content-container container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                <?php require $form_modules[\WebDevJL\WebIde\Resources\Enums\ViewVariablesKeys::map_module]; ?>
+                <?php require $form_modules[\Puzzlout\WebIde\Resources\Enums\ViewVariablesKeys::map_module]; ?>
             </div>
         </div>
     </div>
