@@ -27,7 +27,7 @@ class LoginDalTest extends \PHPUnit_Framework_TestCase {
   public function testInstanceIsCorrect()
   {
     $this->assertNotNull($this->app);
-    $result = new LoginDal($this->app);
+    $result = new LoginDal($this->app,NULL);
     $this->assertInstanceOf('Puzzlout\WebIde\DalModules\LoginDal', $result);
   }
   

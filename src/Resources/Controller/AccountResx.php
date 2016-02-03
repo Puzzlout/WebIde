@@ -23,7 +23,6 @@ class AccountResx {
     const LOGIN = 'login';
     const EMAIL_PH_TEXT = 'email_ph_text';
     const LOGIN_BTN_TEXT = 'login_btn_text';
-    const LOGIN = 'Login';
     const PAGETITLE = 'pagetitle';
     const PWD_LABEL = 'pwd_label';
     const PASSWORD = 'Password';

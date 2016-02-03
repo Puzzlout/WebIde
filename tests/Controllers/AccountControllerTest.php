@@ -27,7 +27,7 @@ class AccountControllerTest extends \PHPUnit_Framework_TestCase {
   public function testInstanceIsCorrect()
   {
     $this->assertNotNull($this->app);
-    $result = new AccountController($this->app);
+    $result = new AccountController($this->app,'Test','Test');
     $this->assertInstanceOf('Puzzlout\WebIde\Controllers\AccountController', $result);
   }
   

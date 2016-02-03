@@ -2,7 +2,9 @@
 
 namespace Puzzlout\WebIde\DalModules;
 
-class LoginDal extends \Library\Dal\BaseManager {
+use Puzzlout\Framework\Dal;
+
+class LoginDal extends Dal\BaseManager {
 
     /**
      * Select a PM from its username or password
@@ -10,8 +12,8 @@ class LoginDal extends \Library\Dal\BaseManager {
      * @param ProjectManager $pm
      * @return array the selected row in the db
      */
-    public function selectOne($user, \Library\Dal\DbQueryFilters $dbFilters) {
-        $dbConfig = new \Library\Dal\DbStatementConfig($user, \Library\Dal\DbExecutionType::SELECT, $dbFilters);
+    public function selectOne($user, Dal\DbQueryFilters $dbFilters) {
+        $dbConfig = new \Dal\DbStatementConfig($user, \Dal\DbExecutionType::SELECT, $dbFilters);
         $dbConfig->setLimitClause(1);
         $dbConfig->BuildSelectQuery();
         $this->addDbConfigItem($dbConfig);
