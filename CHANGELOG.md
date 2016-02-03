@@ -1,4 +1,4 @@
-# Changelog 
+# Changelog
 
 1.0.0-dev.3:
 - [Issue #6](https://github.com/Puzzlout/WebIde/issues/6) 
