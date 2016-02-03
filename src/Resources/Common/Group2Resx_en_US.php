@@ -13,10 +13,6 @@
 
 namespace Puzzlout\WebIde\Resources\Common;
 
-if (!FrameworkConstants_ExecutionAccessRestriction) {
-    exit('No direct script access allowed');
-}
-
 class Group2Resx_en_US extends Group2Resx {
 
     public function GetList() {
