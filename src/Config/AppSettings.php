@@ -44,7 +44,7 @@ class AppSettings {
             AppSettingKeys::Myslq_host => "localhost",
             AppSettingKeys::Mysql_db_name => "easymvc_db",
             AppSettingKeys::Mysql_pwd => "jUL%C9%15",
-            AppSettingKeys::Mysql_user => "Puzzlout",
+            AppSettingKeys::Mysql_user => "webdevjl",
             AppSettingKeys::PasswordSalt => "g496lJL683yFiDzju2K94f1751Lo7WSw",
             AppSettingKeys::RootDocumentUpload => "ClientSide/upload/",
             AppSettingKeys::RootImageFolderPath => "../Web/images/",
